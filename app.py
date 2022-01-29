@@ -8,7 +8,7 @@ followersList = []
 unfollowersList = []
 followedList = []
 
-browser = webdriver.Chrome(executable_path='C:/drivers/chromedriver.exe')
+browser = webdriver.Chrome(executable_path='C:/driver/chromedriver.exe')
 def login(username,password):
     browser.get(link)
     time.sleep(5)
